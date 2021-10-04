@@ -1,4 +1,4 @@
-![Banner](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/raw/master/assets/banner.png)
+![Banner](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/assets/badges.png)
 
 This repository contains the some important information related to **30 Days of Google Cloud** program as well as some of the solutions to the **Challenge Labs**!
 
@@ -35,7 +35,7 @@ Solutions to the Challenge Labs of the **Data Science & Machine Learning Track**
 
 ## Program Syllabus
 
-![](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/raw/master/assets/badges.png)
+![](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/assets/badges.png)
 
 * Track 1: Cloud Engineering Track
 
@@ -60,6 +60,6 @@ To earn prizes in the program, you need to **complete either of the track**!
 
 See the tracks and the prizes associated with them below. Your progress is recorded on a daily basis and will be evaluate at the end of the program i.e. **27th October 11:59 PM IST**.
 
-![](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/raw/master/assets/prizes_table.png)
+![](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/assets/prizes_table.png)
 
 > For more information refer [here](https://events.withgoogle.com/30daysofgooglecloud/prize-rules/#content).
