@@ -1,4 +1,4 @@
-![Banner](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/assets/badges.png)
+![Banner](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/assets/banner.png)
 
 This repository contains the some important information related to **30 Days of Google Cloud** program as well as some of the solutions to the **Challenge Labs**!
 
