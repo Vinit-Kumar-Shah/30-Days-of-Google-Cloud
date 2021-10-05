@@ -56,7 +56,9 @@ gcloud compute firewall-rules create fw-ssh-prod --source-ranges=0.0.0.0/0 --tar
 ```yaml
 gcloud sql instances create griffin-dev-db --root-password password --region=us-east1
 
+#password is "password"
 gcloud sql connect griffin-dev-db
+
 
 # Copy paste the following from the lab mannual
 CREATE DATABASE wordpress;
@@ -106,10 +108,16 @@ kubectl create secret generic cloudsql-instance-credentials \
 
 ### Task 7: Create a WordPress deployment
 
+Open the Editor in new window(Option Given in Cloud shell terminal)
+Select wp-deployment.yaml file
+Search for "YOUR_SQL_INSTANCE" in Line 42 and replace it by griffin-dev-db
+Save the changes
+
 * Run the following from the **Cloud Terminal**:
 
+
 ```yaml
-# Use the following for replace YOUR_SQL_INSTANCE with "griffin-dev-db"
+# Use the following for replace YOUR_SQL_INSTANCE with "griffin-dev-db" mentioned above 
 I=$(gcloud sql instances describe griffin-dev-db --format="value(connectionName)")
 
 sed -i s/YOUR_SQL_INSTANCE/$I/g wp-deployment.yaml
@@ -121,12 +129,23 @@ kubectl create -f wp-service.yaml
 
 ### Task 8: Enable monitoring
 
+Copy from Kubernetes Engine 
+1. Go to **NAVBAR** >> **Kubernetes Engine** >> **Services & Ingress** 
+ ![WhatsApp Image 2021-10-05 at 6 03 41 PM](https://user-images.githubusercontent.com/74889769/136032943-ace9d892-5203-4913-a256-196e67dcad8f.jpeg)
+2. Click below Endpoints 
+ ![Screen Shot 2021-10-05 at 6 08 20 PM](https://user-images.githubusercontent.com/74889769/136032575-c11c4414-55f1-46d9-95d1-2e8aa7009130.png)
+3. Copy the adress (For ex. "34.139.58.45" copy this)
+
+
 1. Go to **OPERATIONS** > **Monitoring**
 2. Wait for the workspace creation to complete
 3. Go to **Uptime checks** > **CREATE UPTIME CHECKS**
 4. Now enter the info as below:
 
 <img width=600 src="https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/screenshots/uptime.png" alt="Uptime check" />
+1. Title: Wordpress Uptime
+2. Hostname: Paste your Endpoint here , copied in previous step (For ex. "34.139.58.45")
+3. All other fields remain default.
 
 ### Task 9: Provide access for an additional engineer
 
