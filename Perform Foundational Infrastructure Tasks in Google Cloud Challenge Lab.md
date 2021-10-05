@@ -53,8 +53,9 @@ Some Jooli Inc. standards you should follow:
    **Entry point:** thumbnail
 5. Add the code appropiately
 6. Download the image from URL
-7. Navigation menu > **STORAGE** > Storage > Select your bucket > Upload files
-8. Refresh bucket
+8. Navigation menu > **STORAGE** > Storage > Select your bucket > Upload files
+(In case it showing error try and upload a different .png/.jpeg file)
+10. Refresh bucket
 
 ### Task 4: Remove the previous cloud engineer
 
