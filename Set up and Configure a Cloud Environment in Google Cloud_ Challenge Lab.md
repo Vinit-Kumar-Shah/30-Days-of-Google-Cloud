@@ -129,14 +129,14 @@ kubectl create -f wp-service.yaml
 
 ### Task 8: Enable monitoring
 
-Copy from Kubernetes Engine 
+Copy EndPoint from Kubernetes Engine 
 1. Go to **NAVBAR** >> **Kubernetes Engine** >> **Services & Ingress** 
  ![WhatsApp Image 2021-10-05 at 6 03 41 PM](https://user-images.githubusercontent.com/74889769/136032943-ace9d892-5203-4913-a256-196e67dcad8f.jpeg)
 2. Click below Endpoints 
  ![Screen Shot 2021-10-05 at 6 08 20 PM](https://user-images.githubusercontent.com/74889769/136032575-c11c4414-55f1-46d9-95d1-2e8aa7009130.png)
 3. Copy the adress (For ex. "34.139.58.45" copy this)
 
-
+Enabling monitoring:
 1. Go to **OPERATIONS** > **Monitoring**
 2. Wait for the workspace creation to complete
 3. Go to **Uptime checks** > **CREATE UPTIME CHECKS**
