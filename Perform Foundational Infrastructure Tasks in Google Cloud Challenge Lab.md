@@ -32,7 +32,7 @@ Some Jooli Inc. standards you should follow:
 
 ### Task 2: Create a Pub/Sub topic
 
-1. Navigation menu > **BIG DATA** > Pub/Sub
+1. Navigation menu > **BIG DATA** > Pub/Sub > Topics
 2. Create Topic > **Name:** Jooli > Create Topic
 
 ### Task 3: Create the thumbnail Cloud Function
