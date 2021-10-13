@@ -37,7 +37,7 @@ Some Jooli Inc. standards you should follow:
 
 ### Task 3: Create the thumbnail Cloud Function
 
-1. Navigation menu > **COMPUTE** >  Cloud Functions > Create Function
+1. Navigation menu > **SERVERLESS** >  Cloud Functions > Create Function
 
 2. Use the following config:
 
