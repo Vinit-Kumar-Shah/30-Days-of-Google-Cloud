@@ -24,7 +24,7 @@ Some Jooli Inc. standards you should follow:
 
 ### Task 1: Create a bucket
 
-1. Navigation menu > **STORAGE** > Storage > Create Bucket
+1. Navigation menu > **STORAGE** > Cloud Storage > Create Bucket
 2. Name your bucket > Enter **GCP Project ID** > Continue
 3. Choose where to store your data > **Region:** us-east1 > Continue
 4. Use default for the remaining 
