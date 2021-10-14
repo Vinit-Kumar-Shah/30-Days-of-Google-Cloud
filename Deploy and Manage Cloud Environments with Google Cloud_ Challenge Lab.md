@@ -55,7 +55,7 @@ gcloud compute instances create kraken-admin --network-interface="subnet=kraken-
           Filter	Choose instance id and paste the value copied from kraken-admin
           Threshold	0.5 for 1 minute
 
-          ![image](https://user-images.githubusercontent.com/64884766/137373771-064c8f6d-672d-4392-9e9d-0466b31deb79.png)
+     ![image](https://user-images.githubusercontent.com/64884766/137373771-064c8f6d-672d-4392-9e9d-0466b31deb79.png)
 
 
 * **Manage notification Channel** > Create a new **Email Channel** 
