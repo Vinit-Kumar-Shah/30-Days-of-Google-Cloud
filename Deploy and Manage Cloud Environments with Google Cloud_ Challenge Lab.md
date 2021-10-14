@@ -49,6 +49,12 @@ gcloud compute instances create kraken-admin --network-interface="subnet=kraken-
 
 * Add Condition (use the **kraken-admin instance ID**)
 
+          Fields	Options
+          Resource Type	GCE VM Instance
+          Metric	CPU Utilization compute.googleapis.com/instance/cpu/utilization
+          Filter	Choose instance id and paste the value copied from kraken-admin
+          Threshold	0.5 for 1 minute
+
 * **Manage notification Channel** > Create a new **Email Channel** 
 
 * Click **Done**
