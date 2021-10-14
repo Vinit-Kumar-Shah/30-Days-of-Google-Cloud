@@ -69,22 +69,23 @@ kubectl create -f k8s/deployment.yaml
 kubectl create -f k8s/service.yaml
 
 git merge origin/kurt-dev
-kubectl edit deployment valkyrie-dev
 ```
 
 ### Task 5: Update the deployment with a new version of valkyrie-app
 
 ```yaml
+
+kubectl edit deployment valkyrie-dev
 docker build -t gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2 . 
 docker push gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2
 kubectl edit deployment valkyrie-dev
 
-docker ps
 ```
 
 ### Task 6: Create a pipeline in Jenkins to deploy your app
 
 ```yaml
+docker ps
 docker kill container_id
 
 export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/component=jenkins-master" -l "app.kubernetes.io/instance=cd" -o jsonpath="{.items[0].metadata.name}")
