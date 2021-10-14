@@ -68,13 +68,12 @@ gcloud container clusters get-credentials valkyrie-dev --zone us-east1-d
 kubectl create -f k8s/deployment.yaml
 kubectl create -f k8s/service.yaml
 
-git merge origin/kurt-dev
 ```
 
 ### Task 5: Update the deployment with a new version of valkyrie-app
 
 ```yaml
-
+git merge origin/kurt-dev
 kubectl edit deployment valkyrie-dev
 docker build -t gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2 . 
 docker push gcr.io/$GOOGLE_CLOUD_PROJECT/valkyrie-app:v0.0.2
