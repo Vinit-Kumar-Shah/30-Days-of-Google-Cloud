@@ -12,7 +12,7 @@ As a junior data engineer in Jooli Inc. and recently trained with Google Cloud a
 
 * Create a **Storage** Bucket > Enter name as your GCP Project ID > Leave others to default > Create
 
-* Go to **BigQuery** > Select project ID > Create Dataset > Enter the name as `lab` and click on Create
+* Go to **BigQuery** > Select project ID > Create Dataset > Enter the name as `lab` and click on Create Dataset
 
 * Run the following from the Cloud Shell:
 
