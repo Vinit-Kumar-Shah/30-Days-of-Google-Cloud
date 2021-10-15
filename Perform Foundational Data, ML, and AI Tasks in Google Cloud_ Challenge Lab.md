@@ -8,7 +8,7 @@ As a junior data engineer in Jooli Inc. and recently trained with Google Cloud a
 
 ### Task 1: Run a simple Dataflow job
 
-* Navigation menu > Storage > Browser
+* Navigation menu > Cloud Storage > Browser
 
 * Create a **Storage** Bucket > Enter name as your GCP Project ID > Leave others to default > Create
 
