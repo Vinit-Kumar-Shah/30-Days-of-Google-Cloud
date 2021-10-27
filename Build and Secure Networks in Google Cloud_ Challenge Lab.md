@@ -43,6 +43,9 @@ gcloud compute firewall-rules create ssh-ingress --allow=tcp:22 --source-ranges 
 
 gcloud compute instances add-tags bastion --tags=ssh-ingress --zone=us-central1-b
 ```
+Now go to Compute Engine and edit Bastion instance. in Target tags add the tag given in Task 3 in that.
+
+Now go to firewall in vpc network and edit the ssh-ingress firewall. in Target tags add the tag given in Task 3 in that
 
 ### Task 4: The `juice-shop` server serves HTTP traffic. Create a firewall rule that allows traffic on HTTP (tcp/80) to any address. The firewall rule should be enabled on juice-shop via a network tag
 
@@ -53,6 +56,9 @@ gcloud compute firewall-rules create http-ingress --allow=tcp:80 --source-ranges
 
 gcloud compute instances add-tags juice-shop --tags=http-ingress --zone=us-central1-b
 ```
+Now go to Compute Engine and edit juice-shop instance. in Target tags add the tag given in Task 4 in that.
+
+Now go to firewall in vpc network and edit the http-ingress firewall. in Target tags add the tag given in Task 4 in that.
 
 ### Task 5: You need to connect to `juice-shop` from the bastion using SSH. Create a firewall rule that allows traffic on SSH (tcp/22) from `acme-mgmt-subnet` network address. The firewall rule should be enabled on `juice-shop` via a network tag
 
@@ -63,6 +69,9 @@ gcloud compute firewall-rules create internal-ssh-ingress --allow=tcp:22 --sourc
 
 gcloud compute instances add-tags juice-shop --tags=internal-ssh-ingress --zone=us-central1-b
 ```
+Now go to Compute Engine and edit juice-shop instance. in Target tags add the tag given in Task 5 in that.
+
+Now go to firewal in vpc network and edit the internal-ssh-ingress firewal. in Target tags add the tag given in Task 5 in that.
 
 ### Task 6: In the Compute Engine instances page, click the SSH button for the bastion host. Once connected, SSH to `juice-shop`
 
