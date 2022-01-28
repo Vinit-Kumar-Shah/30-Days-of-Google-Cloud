@@ -21,7 +21,7 @@ Solutions to the Challenge Labs of the **Data Science & Machine Learning Track**
 
 1. [Getting Started: Create and Manage Cloud Resources: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Getting%20Started_%20Create%20and%20Manage%20Cloud%20Resources_%20Challenge%20Lab.md)
 2. [Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Perform%20Foundational%20Data%2C%20ML%2C%20and%20AI%20Tasks%20in%20Google%20Cloud_%20Challenge%20Lab.md)
-3. [Insights from Data with Big Query: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Insights%20from%20Data%20with%20BigQuery_%20Challenge%20Lab.md)
+3. [Insights from Data with BigQuery: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Insights%20from%20Data%20with%20BigQuery_%20Challenge%20Lab.md)
 4. [Engineer Data in Google Cloud: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Engineer%20Data%20in%20Google%20Cloud_%20Challenge%20Lab.md)
 5. [Integrate with Machine Learning APIs: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Integrate%20with%20Machine%20Learning%20APIs_%20Challenge%20Lab.md)
 6. [Explore Machine Learning Models with Explainable AI: Challenge Lab](https://github.com/Vinit-Kumar-Shah/30-Days-of-Google-Cloud/blob/main/Explore%20Machine%20Learning%20Models%20with%20Explainable%20AI_%20Challenge%20Lab.md)
